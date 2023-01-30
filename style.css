@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.section1 {
+    display: flex;
+    flex: 1;
+}
+.information {
+    display: flex;
+    flex: 1;
+}
+.quote {
+    display: flex;
+    flex: 1;
+}
+.action {
+    display: flex;
+    flex: 1;
+}
+.footer {
+    display: flex;
+    flex: 1;
+}
