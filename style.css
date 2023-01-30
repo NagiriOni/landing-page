@@ -12,7 +12,28 @@ body {
 .section1 {
     display: flex;
     flex: 1;
+    background-color: #1f2937;
 }
+.header {
+    display: flex;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+
 .information {
     display: flex;
     flex: 1;
