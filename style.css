@@ -9,11 +9,6 @@ body {
     height: 100vh;
 }
 
-.section1 {
-    display: flex;
-    flex: 1;
-    background-color: #1f2937;
-}
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +28,27 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
+}
+
+.section1 {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    background: #3882f6;
+    color: white;
+    border: none;
 }
 
 .information {
