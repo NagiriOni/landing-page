@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -35,6 +35,7 @@ ul {
     flex: 1;
     background-color: #1f2937;
     align-items: center;
+    justify-content: center;
 }
 .main-title {
     font-size: 48px;
@@ -51,22 +52,31 @@ button {
     border: none;
 }
 img {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .information {
     display: flex;
     flex: 1;
 }
-.quote {
+
+.inspiration {
+    background: #e5e7eb;
     display: flex;
-    flex: 1;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    flex-direction: column;
+    padding: 30px;
 }
+.quote {
+    margin-bottom: 40px;
+}
+
 .action {
     display: flex;
     flex: 1;
 }
 .footer {
     display: flex;
-    flex: 1;
 }
