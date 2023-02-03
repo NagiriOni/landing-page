@@ -16,8 +16,10 @@ body {
 }
 .header {
     display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
 }
-.logo{
+.logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -32,7 +34,6 @@ ul {
     display: flex;
     gap: 16px;
 }
-
 
 .information {
     display: flex;
