@@ -55,22 +55,44 @@ img {
     max-width: 500px;
 }
 
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
 .information {
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+.content {
+    max-width: 200px;
+}
+.content, img {
+    max-width: 250px;
+}
+.content .text {
+    text-align: center;
 }
 
 .inspiration {
     background: #e5e7eb;
     display: flex;
     color: #1f2937;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     flex-direction: column;
     padding: 30px;
 }
 .quote {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .action {
