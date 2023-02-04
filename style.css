@@ -123,6 +123,11 @@ button {
     padding-right: 100px;
     margin: 18px;
 }
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .action-title {
     font-size: 25px;
     color: white;
